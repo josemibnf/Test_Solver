@@ -3,8 +3,8 @@ import instances_pb2, instances_pb2_grpc
 import requests
 
 NODE_URI = "192.168.1.64:8000"
-RANDOM_CNF = "03a773f255e9eb1bc9e6528f73d18b79c339b0cc3f5bd0cc0f07befbb9a83c22"
-SOLVER = "31c892aacb78820ab18c4632f39a056152fa2080fd82f97ed2c69b8dcb4ea7cf"
+RANDOM_CNF = ""
+SOLVER = ""
 
 
 def is_good(cnf, interpretation):
